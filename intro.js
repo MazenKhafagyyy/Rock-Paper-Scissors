@@ -47,18 +47,15 @@ function playRound(playerChoice) {
 
 const rock_btn = document.querySelector("#rock");
 rock_btn.addEventListener('click', function (e) {
-    e.target.style.background = "pink";
     playRound("rock");
 });
 
 const paper_btn = document.querySelector("#paper");
 paper_btn.addEventListener('click', function (e) {
-    e.target.style.background = "pink";
     playRound("paper");
 });
 
 const scissors_btn = document.querySelector("#scissors");
 scissors_btn.addEventListener('click', function (e) {
-    e.target.style.background = "pink";
     playRound("scissors");
 });
